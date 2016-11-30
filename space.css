@@ -1,0 +1,46 @@
+body {
+    background: #000000;
+}
+
+.planet {
+    display: inline-block;
+    border-radius: 100%;
+    width: 10em;
+    height: 10em;
+}
+
+.mercury {
+    background: #9E681D;
+}
+
+.venus {
+    background: #AF420F;
+}
+
+.earth {
+    background: #4F7A1A;
+}
+
+.mars {
+    background: #C42C11;
+}
+
+.jupiter {
+    background: #CAA880;
+}
+
+.saturn {
+    background: #CAC169;
+}
+
+.uranus {
+    background: #33B8CC;
+}
+
+.neptune {
+    background: #006685;
+}
+
+.pluto {
+    background: #001218;
+}

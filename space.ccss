@@ -1,0 +1,48 @@
+__using space.thm__
+
+body {
+    background: %bgcolor%;
+}
+
+.planet {
+    display: inline-block;
+    border-radius: 100%;
+    width: 10em;
+    height: 10em;
+}
+
+.mercury {
+    background: %mercury%;
+}
+
+.venus {
+    background: %venus%;
+}
+
+.earth {
+    background: %earth%;
+}
+
+.mars {
+    background: %mars%;
+}
+
+.jupiter {
+    background: %jupiter%;
+}
+
+.saturn {
+    background: %saturn%;
+}
+
+.uranus {
+    background: %uranus%;
+}
+
+.neptune {
+    background: %neptune%;
+}
+
+.pluto {
+    background: %pluto%;
+}
