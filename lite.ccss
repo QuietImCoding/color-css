@@ -1,0 +1,19 @@
+__using darker.thm__
+body {
+    background: %bg%;
+    color: %color%;
+}
+.btn , .btn *{
+    background: %btn-bg%;
+    color: %btn-color%;
+}
+h1 {
+    color: %h1%;
+}
+h2 {
+    color: %h2%;
+}
+.container-fluid, .navbar, .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-brand{
+    background: %navbg%;
+    color: %navcolor%;
+}

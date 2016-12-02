@@ -49,9 +49,9 @@ public void submit_click(GButton source, GEvent event) { //_CODE_:submit:370142:
   //println("submit - GButton >> GEvent." + event + " @ " + millis());
   String[] lines = new String[names.size()];
   for (int i = 0; i < lines.length; i++) {
-    lines[i] = names.get(i) + ":#" + hex(colors.get(i));
+    lines[i] = names.get(i) + ":#" + hex(colors.get(i)).substring(2);
   }
-  //println(lines);
+  println(lines);
   saveStrings(themename.getText() + ".thm", lines);
 } //_CODE_:submit:370142:
 

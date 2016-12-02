@@ -1,0 +1,18 @@
+body {
+    background: #262626;
+    color: #F1F1F1;
+}
+.btn , .btn *{
+    background: #5A7575;
+    color: #FFFFFF;
+}
+h1 {
+    color: #FFFFFF;
+}
+h2 {
+    color: #F6F6F6;
+}
+.container-fluid, .navbar, .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-brand{
+    background: #4C4C4C;
+    color: #FFFFFF;
+}

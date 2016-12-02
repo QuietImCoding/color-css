@@ -18,7 +18,7 @@ themefile.close()
 
 themedict = {}
 for var in themestrings:
-    themedict[var[:var.index(":")]] = "#" + var[var.index(":")+1:][3:]
+    themedict[var[:var.index(":")]] = var[var.index(":")+1:]#"#" + var[var.index(":")+1:][3:]
 
 for theme in themedict:
     print "%"+theme+"%" + " --> " + themedict[theme]
